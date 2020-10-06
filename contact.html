@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Info</title>
+  </head>
+  <body>
+    <h3>You can reach me by using any one of the following methods!</h3><br>
+    <a href="mailto:Laurakim120@gmail.com?subject=Email from profile site">Send me a personalized email</a><br>
+    <p>Go to <a href="#" target="_blank">LinkedIn</a></p>
+    <h4>Fill-out and submit the form below: </h4>
+    <form action="mailto:Laurakim120@gmail.com?subject=Email from profile site" method="post" enctype="text/plain">
+      <div class="contact-form">
+        <label for="name">Enter your name: </label>
+        <input type="text" name="yourName" id="yourName" required>
+      </div>
+
+      <div class="contact-form">
+        <label for="email">Enter your email address: </label>
+        <input type="email" name="yourEmail" id="yourEmail" required>
+      </div>
+
+      <div class="contact-form">
+        <label for="content">Write your message: </label><br>
+        <textarea name="yourMessage" id="yourMessage" rows="8" cols="80" placeholder="write your message here"></textarea>
+      </div>
+
+      <div class="contact-form">
+        <label for="emaillist">Do you want to sign up to the email list?</label>
+        <input type="checkbox">
+      </div>
+
+      <div class="contact-form">
+        <label for="password">When is a good time for me to contact you? </label>
+        <input type="date" required>
+      </div>
+
+      <div class="contact-form">
+        <input type="submit">
+      </div>
+    </form>
+
+  </body>
+</html>
